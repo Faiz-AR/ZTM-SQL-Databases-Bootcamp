@@ -37,5 +37,3 @@ SELECT COUNT(*) FROM customers WHERE gender='F' AND state='OR';
 SELECT firstname, lastname, income, age FROM customers WHERE age > 44 AND income >= 100000;
 SELECT firstname, lastname, age, income FROM customers WHERE (age >=30 and age <= 50) AND income < 50000;
 SELECT AVG(income) FROM customers WHERE age > 20 AND age < 50;
-
-
